@@ -1,0 +1,9 @@
+Name: msggateway.rpc
+Host: 127.0.0.1
+Port: 8888
+
+UserRpc:
+  Etcd:
+    Hosts:
+      - 127.0.0.1:2379
+    Key: user.rpc
